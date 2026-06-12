@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref-list xmlns:xlink="http://www.w3.org/1999/xlink">
+  <ref id="2563-WARSCHAUER2004">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Warschauer</surname>
+          <given-names>M.</given-names>
+        </name>
+      </person-group>
+      <article-title>Technology and Social Inclusion: Rethinking the Digital Divide</article-title>
+      <publisher-name>The MIT Press</publisher-name>
+      <year>2004</year>
+    </element-citation>
+  </ref>
+  <ref id="2564-VANDIJK2020">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>van Dijk</surname>
+          <given-names>J. A. G. M.</given-names>
+        </name>
+      </person-group>
+      <article-title>The Digital Divide</article-title>
+      <publisher-name>Polity Press</publisher-name>
+      <year>2020</year>
+    </element-citation>
+  </ref>
+  <ref id="2565-VANDEURSEN2019">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>van Deursen</surname>
+          <given-names>A. J. A. M.</given-names>
+        </name>
+        <name>
+          <surname>van Dijk</surname>
+          <given-names>J. A. G. M.</given-names>
+        </name>
+      </person-group>
+      <article-title>The First-Level Digital Divide Shifts from Inequalities in Physical Access to Inequalities in Material Access</article-title>
+      <publisher-name>New Media & Society</publisher-name>
+      <year>2019</year>
+      <volume>21</volume>
+      <issue>2</issue>
+      <fpage>354</fpage>
+      <lpage>375</lpage>
+      <pub-id pub-id-type="doi">10.1177/1461444817715282</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="2566-HARGITTAI2002">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Hargittai</surname>
+          <given-names>E.</given-names>
+        </name>
+      </person-group>
+      <article-title>Second-Level Digital Divide: Differences in People's Online Skills.</article-title>
+      <publisher-name>First Monday</publisher-name>
+      <year>2002</year>
+      <volume>7</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.5210/fm.v7i4.942</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="2567-CEPAL2021">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>CEPAL</surname>
+        </name>
+      </person-group>
+      <article-title>Tecnologías digitales para un nuevo futuro</article-title>
+      <year>2021</year>
+      <volume>43</volume>
+    </element-citation>
+  </ref>
+  <ref id="2568-SOUZA2017">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Souza</surname>
+          <given-names>Jessé.</given-names>
+        </name>
+      </person-group>
+      <source>A elite do atraso: da escravidão à Lava Jato</source>
+      <publisher-name>LeYa</publisher-name>
+      <publisher-loc>São Paulo</publisher-loc>
+      <year>2017</year>
+      <isbn>978-85-441-0408-1</isbn>
+    </element-citation>
+  </ref>
+</ref-list>

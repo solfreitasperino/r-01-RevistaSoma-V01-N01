@@ -1,0 +1,29 @@
+::: {.editorial}
+
+**Resumen**
+
+La pandemia aceleró la digitalización en América Latina, pero evidenció las graves desigualdades estructurales de la región. Aunque aumentó el acceso a Internet, persistió la "brecha digital de segundo nivel": las familias vulnerables quedaron limitadas al uso de móviles con datos restringidos, dificultando su educación y trabajo. Según la CEPAL, el costo de la banda ancha representaba el 14% del ingreso del quintil más pobre, haciendo inviable el acceso universal. La tecnología no resuelve por sí sola las deudas históricas; requiere políticas públicas integrales que consideren factores de ingreso, género y territorio para no amplificar las exclusiones existentes.
+
+*Palabras clave:*
+Pandemia, transformación digital, brecha digital de segundo nivel, América Latina, desigualdad estructural, políticas públicas, CEPAL.
+
+**Abstrac**
+
+The pandemic accelerated digitalization in Latin America but exposed the region's deep structural inequalities. Although internet access expanded, the "second-level digital divide" persisted: low-income families were restricted to mobile phones with limited data plans, hindering education and remote work. According to ECLAC, broadband costs consumed 14% of the poorest quintil's monthly income, making universal access impossible. Technology alone cannot solve historical deficits; it requires comprehensive public policies addressing income, gender, and territory to avoid worsening existing exclusions.
+
+*Keywords:*
+Pandemic, digital transformation, second-level digital divide, Latin America, structural inequality, public policies, ECLAC.
+
+
+La pandemia de COVID-19 funcionó como un acelerador involuntario de procesos que llevaban años en gestación. En cuestión de semanas, sistemas educativos enteros migraron a plataformas virtuales, trámites administrativos que exigían presencialidad se trasladaron a portales web y la telemedicina dejó de ser una promesa para convertirse en una necesidad imperiosa. Sin embargo, esa aceleración no hizo más que volver más visibles las fracturas que ya existían en el tejido social de la región.
+
+América Latina llegó a la pandemia con una infraestructura digital profundamente desigual. Mientras las capitales y las grandes áreas metropolitanas disponían de conexiones de banda ancha razonablemente estables, vastas zonas rurales e incluso periferias urbanas carecían de conectividad básica. La brecha no era solo de acceso físico: se manifestaba también en las competencias digitales de la población, en la disponibilidad de dispositivos adecuados y en la capacidad institucional para sostener servicios en línea de manera continua y segura.
+
+Tres años después del momento más agudo de la crisis sanitaria, el balance resulta ambivalente. Por un lado, se registró una expansión significativa de la conectividad: varios países de la región superaron tasas de penetración de Internet que parecían lejanas a comienzos de 2020. Por otro, las desigualdades de uso ---lo que la literatura especializada denomina "brecha digital de segundo nivel"--- no solo persistieron sino que, en algunos casos, se profundizaron. Los sectores de menores ingresos accedieron mayoritariamente a través de teléfonos móviles con planes de datos limitados, lo que restringía severamente sus posibilidades de participar en actividades educativas, laborales o de ejercicio ciudadano que demandan conexiones estables y pantallas de mayor tamaño[^2].[^1]
+
+El problema, conviene insistir, no es exclusivamente tecnológico. La digitalización que no va acompañada de políticas públicas integrales ---que atiendan simultáneamente la conectividad, la formación, el diseño institucional y la producción de contenidos pertinentes--- corre el riesgo de reproducir y amplificar las desigualdades preexistentes. En una región donde la matriz de la desigualdad opera simultáneamente por ingreso, género, etnia, territorio y edad, suponer que la mera provisión de infraestructura resuelve el acceso es una simplificación que ningún responsable de política pública debería permitirse.
+
+Este número de la revista reúne contribuciones que abordan distintas aristas de esta problemática. Los trabajos que aquí se presentan comparten una premisa: la transformación digital de nuestras sociedades no puede analizarse al margen de las condiciones materiales y simbólicas en las que se despliega. Esperamos que su lectura contribuya a enriquecer un debate que, lejos de cerrarse, se vuelve más urgente con cada innovación tecnológica que promete ---una vez más--- resolver por sí sola las deudas históricas de la región.
+
+[^1]: Según estimaciones de la CEPAL, en 2022 el costo del servicio de banda ancha para la población del primer quintil de ingresos representaba en promedio el 14% de su ingreso mensual en la región, una proporción que vuelve inviable cualquier pretensión de universalidad efectiva.
+

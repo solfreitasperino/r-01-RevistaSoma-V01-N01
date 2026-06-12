@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<front xmlns:xlink="http://www.w3.org/1999/xlink">
+  <journal-meta>
+    <journal-title-group>
+      <journal-title>r-01-RevistaSoma-V01-N01.md</journal-title>
+    </journal-title-group>
+    <publisher>
+      <publisher-name>Universidad Villa Crespo</publisher-name>
+      <publisher-loc>Buenos Aires, Argentina</publisher-loc>
+    </publisher>
+  </journal-meta>
+  <article-meta>
+    <article-categories>
+      <subj-group subj-group-type="heading">
+        <subject>editorial</subject>
+      </subj-group>
+    </article-categories>
+    <title-group>
+      <article-title>La transformación digital postpandemia en América Latina: Brechas estructurales y el desafío de las políticas públicas integrales.</article-title>
+      <trans-title-group xml:lang="en">
+        <trans-title>Digital Transformation Post-Pandemic in Latin America: Structural Divides and the Challenge of Comprehensive Public Policies</trans-title>
+      </trans-title-group>
+    </title-group>
+    <contrib-group>
+      <contrib contrib-type="author" id="a1">
+        <name>
+          <surname>Freitas</surname>
+          <given-names>Sol</given-names>
+        </name>
+      </contrib>
+    </contrib-group>
+    <pub-date pub-type="epub-ppub">
+      <month>06</month>
+      <year>2026</year>
+    </pub-date>
+    <volume>01</volume>
+    <issue>01</issue>
+    <permissions>
+      <copyright-year>2026</copyright-year>
+    </permissions>
+    <custom-meta-group>
+      <custom-meta>
+        <meta-name>xml-lang</meta-name>
+        <meta-value>es</meta-value>
+      </custom-meta>
+    </custom-meta-group>
+  </article-meta>
+</front>

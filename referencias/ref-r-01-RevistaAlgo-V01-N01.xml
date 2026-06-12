@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref-list xmlns:xlink="http://www.w3.org/1999/xlink">
+  <ref id="0-SWALES1990">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Swales</surname>
+          <given-names>J.</given-names>
+        </name>
+      </person-group>
+      <article-title>Genre analysis and academic writing</article-title>
+      <source>English for Specific Purposes</source>
+      <year>1990</year>
+      <volume>9</volume>
+      <issue>1</issue>
+      <fpage>58</fpage>
+      <lpage>65</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2553-GARCIACANCLINI1997">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>García Canclini</surname>
+          <given-names>N.</given-names>
+        </name>
+      </person-group>
+      <article-title>Culturas híbridas y estrategias comunicacionales</article-title>
+      <source>Estudios sobre las Culturas Contemporáneas</source>
+      <publisher-name>Universidad de Colima</publisher-name>
+      <publisher-loc>Colima, México</publisher-loc>
+      <year>1997</year>
+      <volume>3</volume>
+      <issue>5</issue>
+      <fpage>109</fpage>
+      <lpage>128</lpage>
+      <pub-id pub-id-type="doi">10.22201/iisue.20072872e.1990.5.576</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="2554-SARLO-SINFECHA">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Sarlo</surname>
+          <given-names>B.</given-names>
+        </name>
+      </person-group>
+      <article-title>Intelectuales y revistas: razones de una práctica</article-title>
+      <source>América, Cahiers du CRICCAL</source>
+      <issue>9</issue>
+      <fpage>9</fpage>
+      <lpage>16</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2555-LATOUR1986">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Latour</surname>
+          <given-names>B.</given-names>
+        </name>
+      </person-group>
+      <article-title>The powers of association</article-title>
+      <source>The Sociological Review</source>
+      <year>1986</year>
+      <volume>32</volume>
+      <fpage>264</fpage>
+      <lpage>280</lpage>
+      <pub-id pub-id-type="doi">10.1111/j.1467-954X.1984.tb00113.x</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="2556-ORTIZ1988">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Ortiz</surname>
+          <given-names>R.</given-names>
+        </name>
+      </person-group>
+      <article-title>Cultura brasileira e identidade nacional</article-title>
+      <source>Brasiliense</source>
+      <year>1988</year>
+      <volume>12</volume>
+      <issue>4</issue>
+      <fpage>15</fpage>
+      <lpage>30</lpage>
+      <pub-id pub-id-type="doi">10.1590/S0103-40141988000200003</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="2557-CHARTIER1992">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Chartier</surname>
+          <given-names>R.</given-names>
+        </name>
+      </person-group>
+      <article-title>Texts, printing, readings</article-title>
+      <source>Journal of the History of Ideas</source>
+      <year>1992</year>
+      <volume>53</volume>
+      <issue>1</issue>
+      <fpage>133</fpage>
+      <lpage>152</lpage>
+      <pub-id pub-id-type="doi">10.2307/2709911</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="2558-HARDIN1968">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Hardin</surname>
+          <given-names>G.</given-names>
+        </name>
+      </person-group>
+      <article-title>The Tragedy of the Commons</article-title>
+      <source>Science</source>
+      <year>1968</year>
+      <volume>162</volume>
+      <issue>3859</issue>
+      <fpage>1243</fpage>
+      <lpage>1248</lpage>
+      <pub-id pub-id-type="doi">10.1126/science.162.3859.1243</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="2559-DERRIDA1967">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Derrida</surname>
+          <given-names>J.</given-names>
+        </name>
+      </person-group>
+      <article-title>Structure, signe et jeu dans le discours des sciences humaines</article-title>
+      <source>Critique</source>
+      <year>1967</year>
+      <volume>23</volume>
+      <issue>246</issue>
+      <fpage>425</fpage>
+      <lpage>442</lpage>
+    </element-citation>
+  </ref>
+  <ref id="2560-SHANNON1948">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Shannon</surname>
+          <given-names>C. E.</given-names>
+        </name>
+      </person-group>
+      <article-title>A Mathematical Theory of Communication</article-title>
+      <source>Bell System Technical Journal</source>
+      <year>1948</year>
+      <volume>27</volume>
+      <issue>3</issue>
+      <fpage>379</fpage>
+      <lpage>423</lpage>
+      <pub-id pub-id-type="doi">10.1002/j.1538-7305.1948.tb01338.x</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="2561-CHARTIER1994">
+    <element-citation publication-type="book">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Chartier</surname>
+          <given-names>R.</given-names>
+        </name>
+      </person-group>
+      <source>El orden de los libros</source>
+      <publisher-name>Gedisa</publisher-name>
+      <publisher-loc>Barcelona</publisher-loc>
+      <year>1994</year>
+    </element-citation>
+  </ref>
+  <ref id="2562-WARSCHAUER2004">
+    <element-citation publication-type="journal">
+      <person-group person-group-type="author">
+        <name>
+          <surname>Warschauer</surname>
+          <given-names>M.</given-names>
+        </name>
+      </person-group>
+      <article-title>Technology and Social Inclusion: Rethinking the Digital Divide</article-title>
+      <publisher-name>The MIT Press</publisher-name>
+      <year>2004</year>
+    </element-citation>
+  </ref>
+</ref-list>
