@@ -1,6 +1,9 @@
-# Reseña bibliográfica
+::: {.book-review}
+## Reseña Bibliográfica
 
-**Presentación y contexto**
+Souza, Jessé. *A elite do atraso: da escravidão à Lava Jato*. São Paulo: Leya, 2017, 242 pp. ISBN 978-85-441-0408-1
+
+## Presentación y contexto
 
 Jessé Souza es uno de los sociólogos brasileños más provocadores de su generación. Formado en Derecho y Sociología por la Universidad de Brasilia, doctorado en Heidelberg y con posdoctorados en la New School for Social Research de Nueva York, ha dedicado buena parte de su trayectoria a desmontar lo que considera los mitos fundacionales de la interpretación de Brasil como nación. *A elite do atraso*, publicado originalmente en 2017 en el contexto de la crisis político-institucional que desembocó en el *impeachment* de Dilma Rousseff, es quizás su obra de mayor repercusión pública: un libro que trascendió el circuito académico para instalarse en el debate político brasileño e incluso inspirar el desfile de la escuela de samba Paraíso do Tuiuti en el carnaval de Río de Janeiro de 2018.
 
@@ -18,7 +21,7 @@ El libro no está exento de debilidades. La crítica a Freyre, Buarque de Holand
 
 **Conclusión**
 
-Estas objeciones, sin embargo, no disminuyen el valor del libro como intervención intelectual. *A elite do atraso* cumple con la función que toda buena obra de ciencias sociales debería cumplir: obligar a repensar categorías que se daban por sentadas. Para los lectores de habla hispana, el texto ofrece además una oportunidad de reflexionar sobre las propias tradiciones interpretativas nacionales y sobre el modo en que las élites de cada país han construido relatos funcionales a la reproducción de sus privilegios. En un momento en que las derechas radicales avanzan en toda la región apelando a discursos que combinan la meritocracia individual con el desprecio hacia los sectores populares, la lectura de Souza resulta no solo pertinente sino urgente.
+Estas objeciones, sin embargo, no disminuyen el valor del libro como intervención intelectual. *A elite do atraso* cumple con la función que toda buena obra de ciencias sociales debería cumplir: obligar a repensar categorías que se daban por sentadas. Para los lectores de habla hispana, el texto ofrece además una oportunidad de reflexionar acerca de las propias tradiciones interpretativas nacionales y sobre el modo en que las élites de cada país han construido relatos funcionales a la reproducción de sus privilegios. En un momento en que las derechas radicales avanzan en toda la región apelando a discursos que combinan la meritocracia individual con el desprecio hacia los sectores populares, la lectura de Souza resulta no solo pertinente sino urgente.
 
 **Introduction and Context**
 
@@ -28,7 +31,7 @@ The book's central argument can be summarized as a shift in perspective: where t
 
 To support this thesis, Souza undertakes a critical review of three canonical figures of Brazilian social thought: Gilberto Freyre, Sérgio Buarque de Holanda, and Raimundo Faoro. The argument is not that these authors lacked intellectual merit, but rather that their interpretations—the "cordial man," Iberian patrimonialism, the blurring of the lines between public and private—ultimately shaped a common sense that operates ideologically in favor of the elite's class interests. By attributing Brazil's problems to a generic Portuguese cultural heritage, these narratives render invisible the role of slavery as a structuring institution of social relations and, above all, shift attention from real economic exploitation to supposed cultural flaws.
 
-The book is organized around a two-pronged approach. The first is devastating: Souza vigorously dismantles the notion that patrimonialism constitutes an adequate explanatory category for understanding Brazilian society. According to the author, the patrimonialist thesis produces a concealing effect by suggesting that corruption is fundamentally a state problem, thus absolving from responsibility the forms of private accumulation that historically benefited from the exploitation of enslaved labor and, subsequently, from the precarization of free labor. The second approach is constructive: Souza offers an alternative reading of Brazilian social formation that centers on the continuity between colonial slavery and contemporary forms of social contempt for the poor.
+The book is organized around a two-pronged approach. The first is devastating: Souza vigorously dismantles the notion that patrimonialism constitutes an adequate explanatory category for understanding Brazilian society. According to the author, the patrimonialist thesis produces a concealing effect by suggesting that corruption is fundamentally a state problem, thus absolving from responsibility the forms of private accumulation that historically benefited from the exploitation of enslaved labor and, subsequently, from the precarization of free work. The second approach is constructive: Souza offers an alternative reading of Brazilian social formation that centers on the continuity between colonial slavery and contemporary forms of social contempt for the poor.
 
 One of the book's most thought-provoking contributions is the notion of "ralé" (*scoundrel* or *rabble*) as a sociological category. Souza argues that there exists a structurally excluded social class—not simply poor in terms of income—whose exclusion is reproduced through mechanisms that are not purely economic but also symbolic and affective. The contempt for this class, naturalized in everyday Brazilian life, constitutes for Souza the most enduring and least acknowledged legacy of slavery.
 
@@ -39,3 +42,4 @@ The book is not without its weaknesses. The critique of Freyre, Buarque de Holan
 **Conslusion**
 
 These objections, however, do not diminish the book's value as an intellectual contribution. *A elite do atraso* fulfills the function that every good work of social science should: to force us to rethink categories that were taken for granted. For Spanish-speaking readers, the text also offers an opportunity to reflect on their own national interpretive traditions and on how the elites of each country have constructed narratives that serve to reproduce their privileges. At a time when the radical right is advancing throughout the region, appealing to discourses that combine individual meritocracy with contempt for the popular sectors, reading Souza is not only relevant but urgent.
+:::
