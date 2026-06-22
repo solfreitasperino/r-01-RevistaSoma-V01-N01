@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <front xmlns:xlink="http://www.w3.org/1999/xlink">
   <journal-meta>
+    <journal-id journal-id-type="publisher-id">2718-8426</journal-id>
     <journal-title-group>
-      <journal-title>r-01-RevistaSoma-V01-N01.md</journal-title>
+      <journal-title>Revista Soma</journal-title>
     </journal-title-group>
+    <issn pub-type="ppub">2718-8426</issn>
+    <issn pub-type="epub">2718-8426</issn>
     <publisher>
-      <publisher-name>Universidad Villa Crespo</publisher-name>
+      <publisher-name>Editorial Sonny</publisher-name>
       <publisher-loc>Buenos Aires, Argentina</publisher-loc>
     </publisher>
   </journal-meta>
@@ -27,6 +30,10 @@
           <surname>Freitas</surname>
           <given-names>Sol</given-names>
         </name>
+        <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0007-4821-6354</contrib-id>
+        <aff>
+          <institution content-type="dept">Departamento de Edición</institution>,
+        </aff>
       </contrib>
     </contrib-group>
     <pub-date pub-type="epub-ppub">
@@ -38,6 +45,30 @@
     <permissions>
       <copyright-year>2026</copyright-year>
     </permissions>
+    <abstract xml:lang="es">
+      <p>La pandemia aceleró la digitalización en América Latina, pero evidenció las graves desigualdades estructurales de la región. Aunque aumentó el acceso a Internet, persistió la &quot;brecha digital de segundo nivel&quot;: las familias vulnerables quedaron limitadas al uso de móviles con datos restringidos, dificultando su educación y trabajo. Según la CEPAL, el costo de la banda ancha representaba el 14% del ingreso del quintil más pobre, haciendo inviable el acceso universal. La tecnología no resuelve por sí sola las deudas históricas; requiere políticas públicas integrales que consideren factores de ingreso, género y territorio para no amplificar las exclusiones existentes.</p>
+    </abstract>
+    <trans-abstract xml:lang="en">
+      <p>The pandemic accelerated digitalization in Latin America but exposed the region&apos;s deep structural inequalities. Although internet access expanded, the &quot;second-level digital divide&quot; persisted: low-income families were restricted to mobile phones with limited data plans, hindering education and remote work. According to ECLAC, broadband costs consumed 14% of the poorest quintil&apos;s monthly income, making universal access impossible. Technology alone cannot solve historical deficits; it requires comprehensive public policies addressing income, gender, and territory to avoid worsening existing exclusions.</p>
+    </trans-abstract>
+    <kwd-group xml:lang="es" kwd-group-type="author-generated">
+      <kwd>Pandemia</kwd>
+      <kwd>transformación digital</kwd>
+      <kwd>brecha digital de segundo nivel</kwd>
+      <kwd>América Latina</kwd>
+      <kwd>desigualdad estructural</kwd>
+      <kwd>políticas públicas</kwd>
+      <kwd>CEPAL.</kwd>
+    </kwd-group>
+    <kwd-group xml:lang="en" kwd-group-type="author-generated">
+      <kwd>Pandemic</kwd>
+      <kwd>digital transformation</kwd>
+      <kwd>second-level digital divide</kwd>
+      <kwd>Latin America</kwd>
+      <kwd>structural inequality</kwd>
+      <kwd>public policies</kwd>
+      <kwd>ECLAC.</kwd>
+    </kwd-group>
     <custom-meta-group>
       <custom-meta>
         <meta-name>xml-lang</meta-name>

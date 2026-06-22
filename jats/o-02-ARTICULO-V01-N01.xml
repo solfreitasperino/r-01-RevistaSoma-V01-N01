@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:fr="http://www.crossref.org/fundref.xsd"
+           xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 https://www.crossref.org/schemas/crossref5.3.1.xsd"
+           version="5.3.1">
+   <head>
+      <doi_batch_id>gbpublisher-02-ARTICULO-V01-N01-20260620191837</doi_batch_id>
+      <timestamp>20260620191837</timestamp>
+      <depositor>
+         <depositor_name/>
+         <email_address>universidadvillacrespo@gmail.com</email_address>
+      </depositor>
+      <registrant>Universidad Villa Crespo</registrant>
+   </head>
+   <body>
+      <journal>
+         <journal_metadata language="es" reference_distribution_opts="any">
+            <full_title>Revista Soma</full_title>
+            <issn media_type="electronic">2718-8426</issn>
+            <issn media_type="print">2718-8426</issn>
+         </journal_metadata>
+         <journal_issue>
+            <publication_date media_type="online">
+               <month>06</month>
+               <year>2026</year>
+            </publication_date>
+            <journal_volume>
+               <volume>01</volume>
+            </journal_volume>
+            <issue>01</issue>
+         </journal_issue>
+         <journal_article language="es"
+                          publication_type="full_text"
+                          reference_distribution_opts="any">
+            <titles>
+               <title>Desigualdad digital y rendimiento académico en la educación superior: un estudio comparativo en universidades públicas de Argentina y México</title>
+               <original_language_title language="en">Digital Inequality and Academic Performance in Higher Education: A Comparative Study in Public Universities of Argentina and Mexico</original_language_title>
+            </titles>
+            <contributors>
+               <person_name sequence="first" contributor_role="author">
+                  <given_name>Sol</given_name>
+                  <surname>Freitas</surname>
+                  <ORCID authenticated="true">https://orcid.org/0009-0007-4821-6354</ORCID>
+               </person_name>
+            </contributors>
+            <jats:abstract>
+               <jats:p xml:lang="es">Este estudio analiza la relación entre las condiciones de acceso digital y el rendimiento académico de estudiantes de grado en dos universidades públicas latinoamericanas: la Universidad de Buenos Aires (Argentina) y la Universidad Nacional Autónoma de México. Mediante un diseño de métodos mixtos que combinó una encuesta estructurada (n = 1.247) con entrevistas en profundidad (n = 40), se examinaron cuatro dimensiones de la desigualdad digital: acceso motivacional, acceso material, habilidades digitales y resultados académicos. Los hallazgos muestran que las habilidades digitales constituyen el predictor más fuerte del rendimiento académico y operan como variable mediadora entre el acceso material y los resultados. Las pautas de desigualdad son notablemente similares en ambos contextos nacionales, lo que sugiere determinantes estructurales que trascienden las particularidades locales.</jats:p>
+            </jats:abstract>
+            <jats:abstract>
+               <jats:p xml:lang="en">This study examines the relationship between digital access conditions and academic performance among undergraduate students at two Latin American public universities: the University of Buenos Aires (Argentina) and the National Autonomous University of Mexico. Using a mixed-methods design combining a structured survey (n = 1,247) with in-depth interviews (n = 40), four dimensions of digital inequality were examined: motivational access, material access, digital skills, and academic outcomes. Findings show that digital skills are the strongest predictor of academic performance and serve as a mediating variable between material access and outcomes. Inequality patterns are remarkably similar across both national contexts, suggesting structural determinants that transcend local particularities.</jats:p>
+            </jats:abstract>
+            <publication_date media_type="online">
+               <month>06</month>
+               <year>2026</year>
+            </publication_date>
+            <doi_data>
+               <doi>10.5281</doi>
+               <resource content_version="vor" mime_type="text/html">https://www.google.com/</resource>
+            </doi_data>
+         </journal_article>
+      </journal>
+   </body>
+</doi_batch>

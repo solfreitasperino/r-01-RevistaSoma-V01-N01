@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <front xmlns:xlink="http://www.w3.org/1999/xlink">
   <journal-meta>
+    <journal-id journal-id-type="publisher-id">2718-8426</journal-id>
     <journal-title-group>
-      <journal-title>r-01-RevistaSoma-V01-N01.md</journal-title>
+      <journal-title>Revista Soma</journal-title>
     </journal-title-group>
+    <issn pub-type="ppub">2718-8426</issn>
+    <issn pub-type="epub">2718-8426</issn>
     <publisher>
       <publisher-name>Universidad Villa Crespo</publisher-name>
       <publisher-loc>Buenos Aires, Argentina</publisher-loc>
     </publisher>
   </journal-meta>
   <article-meta>
+    <article-id pub-id-type="doi">10.5281</article-id>
     <article-categories>
       <subj-group subj-group-type="heading">
         <subject>research-article</subject>
@@ -27,6 +31,10 @@
           <surname>Freitas</surname>
           <given-names>Sol</given-names>
         </name>
+        <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0007-4821-6354</contrib-id>
+        <aff>
+          <institution content-type="dept">Departamento de Edición</institution>,
+        </aff>
       </contrib>
     </contrib-group>
     <pub-date pub-type="epub-ppub">

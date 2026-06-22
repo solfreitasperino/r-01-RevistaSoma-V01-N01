@@ -1,0 +1,315 @@
+\documentclass{article}
+
+% --- FUENTES Y CODIFICACIÓN ---
+\usepackage[final,babel=True]{microtype}
+\microtypecontext{spacing=nonfrench}
+\usepackage{fontspec}
+\usepackage{svg}
+\usepackage{afterpage}
+\svgsetup{inkscapelatex=false,inkscapearea=drawing}
+\usepackage{unicode-math}
+\setmathfont{Libertinus Math}[Scale=MatchLowercase]
+\setsansfont[Scale=MatchLowercase,Ligatures=TeX,
+  Extension=.otf,UprightFont=*-Regular,ItalicFont=*-Italic,
+  BoldFont=*-SemiBold,BoldItalicFont=*-SemiBoldItalic]{IBMPlexSansCondensed}
+\setmonofont[Scale=0.91,Extension=.otf,UprightFont=*-Regular,
+  ItalicFont=IBMPlexMono-Italic.otf,BoldFont=IBMPlexMono-Bold.otf,
+  BoldItalicFont=IBMPlexMono-BoldItalic.otf]{IBMPlexMono.otf}
+
+% --- IDIOMAS ---
+\usepackage[english,portuguese,main=spanish]{babel}
+\usepackage[autostyle=true]{csquotes}
+\setmainfont[Numbers={OldStyle,Proportional},
+  Ligatures={TeX,Common,Discretionary},Scale=1.18]{Libertinus Serif}
+\renewcommand{\normalsize}{\fontsize{10pt}{13pt}\selectfont}
+
+% --- BIBLIOGRAFÍA ---
+\usepackage[style=apa,backref=true,backend=biber]{biblatex}
+\input{/home/solfreitas/.gbpublisher/biblatex/apa-config.tex}
+
+
+% --- PÁGINA ---
+\usepackage[paperwidth=210mm,paperheight=297mm,
+  top=13mm,bottom=23mm,left=13mm,right=87mm,
+  headsep=0mm,footskip=12mm,headheight=29mm,headsep=10mm,
+  marginparsep=6mm,marginparwidth=68mm,
+  includehead,includefoot]{geometry}
+\setcounter{secnumdepth}{0}
+
+% --- POSICIONAMIENTO ABSOLUTO ---
+\usepackage[absolute,overlay]{textpos}
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{1mm}
+\textblockorigin{0mm}{0mm}
+\newlength{\gbbloquex}
+\AtBeginDocument{\setlength{\gbbloquex}{\dimexpr 1in+\hoffset+\oddsidemargin+\textwidth+\marginparsep\relax}}
+
+% --- TABLAS Y FIGURAS ---
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[labelfont=bf,font=small,labelsep=period,format=plain]{caption}
+
+% --- VARIOS ---
+\newcommand{\epigraph}[2]{%
+  \par\nobreak\noindent\par\nobreak\vspace{.5\baselineskip}%
+  \hfill{%
+    \small
+    \begin{tabular}{@{}>{{\raggedright\arraybackslash}}m{.65\textwidth}@{}}%
+      #1 \\[1ex]%
+      \midrule%
+      \hfill #2%
+    \end{tabular}%
+  }%
+  \vspace{.5\baselineskip}%
+}
+\usepackage{hyperref}
+\hypersetup{colorlinks=True,linkcolor=azulrevista,citecolor=azulrevista,urlcolor=azulrevista,filecolor=azulrevista,
+linktoc=all,breaklinks=True,bookmarksopen=True,bookmarksnumbered=True}
+\usepackage[bottom,stable,hang]{footmisc}
+\usepackage{scrextend}
+\usepackage{changepage}
+\newcommand{\fullwidthblock}[1]{%
+  \begin{adjustwidth}{0pt}{-\dimexpr\marginparsep+\marginparwidth\relax}%
+  \centering #1%
+  \end{adjustwidth}%
+}
+\usepackage{rotating}
+\setlength{\footnotesep}{10pt}
+\renewcommand{\footnoterule}{%
+  \kern -3pt%
+  \hrule height 0.5pt width 0.4\columnwidth%
+  \kern 6pt}
+\renewcommand*{\thefootnote}{\scriptsize\sf{[\arabic{footnote}]}}
+\makeatletter
+\patchcmd{\@footnotetext}{\footnotesize}{\small}{}{}
+\makeatother
+\newcommand*\footnotemarkspace{0em}
+\deffootnote{\footnotemarkspace}
+  {\parindent}
+  {\makebox[\footnotemarkspace][r]{\llap{\thefootnotemark\quad}}}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\usepackage{siunitx}
+\usepackage{enumitem}
+\setlist{nosep,topsep=4pt}
+\usepackage{titlesec}
+\titleformat{\section}[hang]
+  {\sf\bfseries\Large\color{azulrevista}\raggedright}
+  {\thesection}{.5em}{}[]
+\titlespacing{\section}
+  {\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+\titleformat{\subsection}[hang]
+  {\sf\large\color{azulrevista}\raggedright}
+  {\thesubsection}{.5em}{}[]
+\titlespacing{\subsection}
+  {\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+\titleformat{\subsubsection}[hang]
+  {\rm\bfseries\normalsize\color{azulrevista}\raggedright}
+  {\thesubsubsection}{.5em}{}[]
+\titlespacing{\subsubsection}
+  {\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+\titleformat{\paragraph}[runin]
+  {\bfseries\color{azulrevista}}{}{0em}{}[\mbox{ --- }]
+\titlespacing{\paragraph}
+  {0pt}{6.75pt plus 0.5pt minus 0.5pt}{0pt}
+\titleformat{\subparagraph}[hang]
+  {\sf\bfseries\large\color{azulrevista}\centering}
+  {\thesubparagraph}{.5em}{}[]
+\titlespacing{\subparagraph}
+  {\parindent}{18pt plus 0.5pt minus 0.5pt}{6.75pt}
+% --- COLOR ---
+\usepackage[svgnames]{xcolor}
+\usepackage{tcolorbox}
+\definecolor{azulrevista}{HTML}{2d5a8e}
+
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  breakatwhitespace=false,
+  frame=single,
+  framerule=0pt,
+  backgroundcolor=\color{black!5!white},
+  fillcolor=\color{black!5!white},
+  rulecolor=\color{black!5!white},
+  xleftmargin=8pt,xrightmargin=8pt,
+  framexleftmargin=8pt,framexrightmargin=8pt,
+  framextopmargin=6pt,framexbottommargin=6pt,
+  aboveskip=8pt,belowskip=8pt,
+  keywordstyle=\color{blue!70!black}\bfseries,
+  commentstyle=\color{green!50!black}\itshape,
+  stringstyle=\color{orange!80!black},
+  showstringspaces=false,
+  numbers=none,
+  captionpos=b
+}
+\renewenvironment{quote}{\normalsize\list{}{\sf\leftmargin=14pt\rightmargin=0pt}\item\relax}{\endlist}
+
+
+\renewenvironment{verse}
+  {\normalsize\list{}{\leftmargin=14pt\rightmargin=0pt\parsep=0pt}
+   \item\relax\itshape}
+  {\endlist}
+\newcommand{\articulotipo}{}
+
+% --- HEADER / FOOTER ---
+\usepackage{fancyhdr}
+\setlength{\headwidth}{\textwidth}
+\addtolength{\headwidth}{\marginparsep}
+\addtolength{\headwidth}{\marginparwidth}
+
+\fancypagestyle{firstpage}{%
+  \fancyhf{}%
+  \fancyhead[L]{%
+    \begin{minipage}[t]{\headwidth}%
+    \includegraphics[width=184mm,height=20mm,keepaspectratio=false]{/home/solfreitas/00_trabajos/00-Demo/media/logo-revista.png}\\[3mm]%
+      {\setlength{\fboxsep}{0pt}%
+      \colorbox{azulrevista}{%
+        \parbox[c][6mm][c]{\headwidth}{%
+          \hspace{12pt}\sffamily\bfseries\color{white}\articulotipo%
+        }%
+      }}%
+    \end{minipage}%
+  }%
+  \renewcommand{\headrulewidth}{0pt}%
+  \fancyfoot[L]{%
+    \begin{minipage}[t]{\headwidth}%
+      \textcolor{azulrevista}{\rule{\headwidth}{1pt}}\\[1pt]%
+      \sffamily\thepage\hfill%
+      \small\articulorevista{} / e-ISSN: \texttt{\articuloissne}{} / Vol.~\articulovolumen{},~n.\textsuperscript{o}~\articulonumero{} / \articulofecha%
+    \end{minipage}%
+  }%
+  \renewcommand{\footrulewidth}{0pt}%
+}%
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{%
+  \raisebox{\dimexpr\headheight-7mm\relax}[0pt][0pt]{%
+    \begin{minipage}[b]{\headwidth}%
+      \sffamily\thepage\hfill%
+      \small\articulorevista{} / e-ISSN: \texttt{\articuloissne}{} / Vol.~\articulovolumen{},~n.\textsuperscript{o}~\articulonumero{} / \articulofecha\\[1pt]%
+      \textcolor{azulrevista}{\rule{\headwidth}{1pt}}%
+    \end{minipage}%
+  }%
+}%
+\renewcommand{\headrulewidth}{0pt}
+
+% --- MACROS DEL ARTÍCULO (SOBREESCRITAS POR EL XSLT) ---
+\newcommand{\articulotitulo}{}
+\newcommand{\articulosubtitulo}{}
+\newcommand{\articulotitulotrans}{}
+\newcommand{\articuloautores}{}
+\newcommand{\articulodoi}{}
+\newcommand{\articuloidiomaxml}{es}
+\newcommand{\articulorevista}{}
+\newcommand{\articuloissne}{}
+\newcommand{\articulovolumen}{}
+\newcommand{\articulonumero}{}
+\newcommand{\articulofecha}{}
+\newcommand{\articulopagina}{0}
+
+\begin{document}
+
+\selectlanguage{spanish}
+
+\renewcommand{\articuloidiomaxml}{es}
+\renewcommand{\articulotitulo}{Reseña bibliográfica}
+\renewcommand{\articuloautores}{Sol Freitas}
+\renewcommand{\articulotipo}{RESEÑA}
+\renewcommand{\articulorevista}{r-01-RevistaSoma-V01-N01.md}
+\renewcommand{\articulovolumen}{01}
+\renewcommand{\articulonumero}{01}
+\renewcommand{\articulofecha}{ 2026}
+
+\setcounter{page}{1}
+\thispagestyle{firstpage}
+
+% --- TÍTULO A ANCHO COMPLETO ---
+\noindent\begin{minipage}[t]{\dimexpr\textwidth+\marginparsep+\marginparwidth\relax}%
+{\sffamily\bfseries\Large\articulotitulo\par}%
+\end{minipage}\par
+\vspace{3mm}%
+
+% --- BLOQUE LATERAL DE METADATOS ---
+\begin{textblock*}{68mm}(\gbbloquex,92mm)
+{\setlength{\leftskip}{0pt}\setlength{\parindent}{0pt}%
+\noindent\begin{minipage}[t]{68mm}
+\sffamily\small\setlength{\parskip}{1pt}
+{\bfseries\color{azulrevista}Sol Freitas}\par
+{\scriptsize\texttt{\href{https://orcid.org/0009-0007-4821-6354}{https://orcid.org/0009-0007-4821-6354}}}\par
+Departamento de Edición\par
+\vspace{6pt}
+{\bfseries\color{azulrevista!70}Derechos de autor\'ia:}\par
+\textcopyright\ 2026 Freitas, S. Publicado por r-01-RevistaSoma-V01-N01.md. \par\vspace{6pt}
+{\bfseries\color{azulrevista!70}Publicación:} 2026, vol.~01, n\'um.~01\par\vspace{6pt}
+{\bfseries\color{azulrevista!70}URL:} {\scriptsize\texttt{\href{https://www.google.com/}{https://www.google.com/}}}\par\vspace{6pt}
+\vspace{6pt}
+{\bfseries\color{azulrevista!70}Compartir:}\par\vspace{3pt}
+{\large
+\href{https://bsky.app/intent/compose?text=https%3A%2F%2Fwww.google.com%2F}{\includesvg[height=0.9em]{/home/solfreitas/.gbpublisher/fonts/bluesky}}~
+\href{mailto:?subject=Rese%C3%B1a%20bibliogr%C3%A1fica&body=https%3A%2F%2Fwww.google.com%2F}{\includesvg[height=0.9em]{/home/solfreitas/.gbpublisher/fonts/envelope}}~
+\href{https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.google.com%2F}{\includesvg[height=0.9em]{/home/solfreitas/.gbpublisher/fonts/facebook}}~
+\href{https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.google.com%2F}{\includesvg[height=0.9em]{/home/solfreitas/.gbpublisher/fonts/linkedin}}~
+\href{https://www.reddit.com/submit?url=https%3A%2F%2Fwww.google.com%2F&title=Rese%C3%B1a%20bibliogr%C3%A1fica}{\includesvg[height=0.9em]{/home/solfreitas/.gbpublisher/fonts/reddit}}~
+\href{https://www.researchgate.net/search?q=Rese%C3%B1a%20bibliogr%C3%A1fica}{\includesvg[height=0.9em]{/home/solfreitas/.gbpublisher/fonts/researchgate}}~
+\href{https://t.me/share/url?url=https%3A%2F%2Fwww.google.com%2F&text=Rese%C3%B1a%20bibliogr%C3%A1fica}{\includesvg[height=0.9em]{/home/solfreitas/.gbpublisher/fonts/telegram}}~
+\href{https://wa.me/?text=https%3A%2F%2Fwww.google.com%2F}{\includesvg[height=0.9em]{/home/solfreitas/.gbpublisher/fonts/whatsapp}}~
+\href{https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.google.com%2F&text=Rese%C3%B1a%20bibliogr%C3%A1fica}{\includesvg[height=0.9em]{/home/solfreitas/.gbpublisher/fonts/x-twitter}}
+}\par
+\end{minipage}%
+}% FIN GRUPO leftskip
+\end{textblock*}
+
+
+\bigskip
+\noindent\rule{\linewidth}{0.4pt}
+\bigskip
+
+\section{Reseña Bibliográfica}
+Souza, Jessé. \textit{A elite do atraso: da escravidão à Lava Jato}. São Paulo: Leya, 2017, 242 pp. ISBN 978-85-441-0408-1
+
+
+\section{Presentación y contexto}
+Jessé Souza es uno de los sociólogos brasileños más provocadores de su generación. Formado en Derecho y Sociología por la Universidad de Brasilia, doctorado en Heidelberg y con posdoctorados en la New School for Social Research de Nueva York, ha dedicado buena parte de su trayectoria a desmontar lo que considera los mitos fundacionales de la interpretación de Brasil como nación. \textit{A elite do atraso}, publicado originalmente en 2017 en el contexto de la crisis político-institucional que desembocó en el \textit{impeachment} de Dilma Rousseff, es quizás su obra de mayor repercusión pública: un libro que trascendió el circuito académico para instalarse en el debate político brasileño e incluso inspirar el desfile de la escuela de samba Paraíso do Tuiuti en el carnaval de Río de Janeiro de 2018.
+
+El argumento central del libro puede resumirse en una operación de desplazamiento: donde la tradición dominante del pensamiento social brasileño ubicó al patrimonialismo heredado de Portugal como la clave explicativa de los males nacionales —la corrupción, el atraso institucional, la ineficiencia del Estado—, Souza propone que la verdadera matriz de la desigualdad brasileña es la esclavitud y su legado persistente. No se trata, advierte el autor, de una tesis meramente historiográfica: lo que está en juego es la estructura de legitimación que permite a las élites brasileñas contemporáneas reproducir privilegios mientras trasladan la responsabilidad del “atraso” al Estado y, por extensión, a las clases populares que dependen de él.
+
+Para sostener esta tesis, Souza emprende una revisión crítica de tres figuras canónicas del pensamiento social brasileño: Gilberto Freyre, Sérgio Buarque de Holanda y Raimundo Faoro. El argumento no es que estos autores carecieran de mérito intelectual, sino que sus interpretaciones —el “hombre cordial”, el patrimonialismo ibérico, la confusión entre lo público y lo privado— terminaron configurando un sentido común que opera ideológicamente a favor de los intereses de clase de la élite. Al atribuir los problemas de Brasil a una herencia cultural portuguesa genérica, estas narrativas invisibilizan el papel de la esclavitud como institución estructurante de las relaciones sociales y, sobre todo, desplazan la atención de la explotación económica real hacia supuestos defectos culturales.
+
+El libro se organiza en torno a una doble operación. La primera es demoledora: Souza desmonta con considerable vigor polémico la noción de que el patrimonialismo constituya una categoría explicativa adecuada para comprender la sociedad brasileña. Según el autor, la tesis patrimonialista produce un efecto de ocultamiento al sugerir que la corrupción es un problema fundamentalmente estatal, lo que permite eximir de responsabilidad a las formas de acumulación privada que históricamente se beneficiaron de la explotación de mano de obra esclavizada y, posteriormente, de la precarización del trabajo libre. La segunda operación es propositiva: Souza ofrece una lectura alternativa de la formación social brasileña que pone en el centro la continuidad entre la esclavitud colonial y las formas contemporáneas de desprecio social hacia los pobres.
+
+Uno de los aportes más sugerentes del libro es la noción de “ralé” (\textit{canalla} o \textit{chusma}) como categoría sociológica. Souza argumenta que existe una clase social estructuralmente excluida —no simplemente pobre en términos de ingreso— cuya exclusión se reproduce a través de mecanismos que no son puramente económicos sino también simbólicos y afectivos. El desprecio hacia esta clase, naturalizado en la vida cotidiana brasileña, constituye para Souza la herencia más duradera y menos reconocida de la esclavitud.
+
+Desde una perspectiva latinoamericana más amplia, el libro plantea preguntas que exceden el caso brasileño. La relación entre élites económicas, producción intelectual y legitimación del orden social es un problema compartido por todas las sociedades de la región. ¿En qué medida las ciencias sociales latinoamericanas han contribuido, inadvertidamente, a naturalizar las desigualdades que pretenden explicar? ¿Cuánto de lo que se presenta como análisis desinteresado de la cultura nacional opera, en realidad, como justificación del privilegio?
+
+El libro no está exento de debilidades. La crítica a Freyre, Buarque de Holanda y Faoro, aunque estimulante, resulta por momentos esquemática: al subordinar la lectura de estos autores a la demostración de su tesis, Souza tiende a simplificar obras de considerable complejidad. La categoría de “ralé”, por su parte, si bien tiene poder descriptivo, plantea problemas analíticos que el libro no resuelve del todo: ¿se trata de una clase en sentido estricto o de una condición social? ¿Cuáles son sus fronteras empíricas? Finalmente, el tono polémico que recorre toda la obra —y que sin duda contribuyó a su éxito editorial— puede resultar excesivo para un público académico habituado a la argumentación matizada.
+
+\textbf{Conclusión}
+
+Estas objeciones, sin embargo, no disminuyen el valor del libro como intervención intelectual. \textit{A elite do atraso} cumple con la función que toda buena obra de ciencias sociales debería cumplir: obligar a repensar categorías que se daban por sentadas. Para los lectores de habla hispana, el texto ofrece además una oportunidad de reflexionar acerca de las propias tradiciones interpretativas nacionales y sobre el modo en que las élites de cada país han construido relatos funcionales a la reproducción de sus privilegios. En un momento en que las derechas radicales avanzan en toda la región apelando a discursos que combinan la meritocracia individual con el desprecio hacia los sectores populares, la lectura de Souza resulta no solo pertinente sino urgente.
+
+\textbf{Introduction and Context}
+
+Jessé Souza is one of the most provocative Brazilian sociologists of his generation. With degrees in Law and Sociology from the University of Brasília, a doctorate from Heidelberg, and postdoctoral studies at the New School for Social Research in New York, he has dedicated a significant part of his career to dismantling what he considers the foundational myths of the interpretation of Brazil as a nation. \textit{The Elite of Backwardness}, originally published in 2017 in the context of the political and institutional crisis that culminated in the impeachment of Dilma Rousseff, is perhaps his most publicly impactful work: a book that transcended the academic sphere to become part of the Brazilian political debate and even inspired the Paraíso do Tuiuti samba school’s parade at the 2018 Rio de Janeiro Carnival.
+
+The book’s central argument can be summarized as a shift in perspective: where the dominant tradition of Brazilian social thought has identified the patrimonialism inherited from Portugal as the key to explaining the nation’s ills—corruption, institutional backwardness, and state inefficiency—Souza proposes that the true root of Brazilian inequality is slavery and its enduring legacy. This, the author warns, is not merely a historiographical thesis: what is at stake is the legitimizing structure that allows contemporary Brazilian elites to reproduce their privileges while shifting the responsibility for “backwardness” onto the State and, by extension, onto the popular classes that depend on it.
+
+To support this thesis, Souza undertakes a critical review of three canonical figures of Brazilian social thought: Gilberto Freyre, Sérgio Buarque de Holanda, and Raimundo Faoro. The argument is not that these authors lacked intellectual merit, but rather that their interpretations—the “cordial man,” Iberian patrimonialism, the blurring of the lines between public and private—ultimately shaped a common sense that operates ideologically in favor of the elite’s class interests. By attributing Brazil’s problems to a generic Portuguese cultural heritage, these narratives render invisible the role of slavery as a structuring institution of social relations and, above all, shift attention from real economic exploitation to supposed cultural flaws.
+
+The book is organized around a two-pronged approach. The first is devastating: Souza vigorously dismantles the notion that patrimonialism constitutes an adequate explanatory category for understanding Brazilian society. According to the author, the patrimonialist thesis produces a concealing effect by suggesting that corruption is fundamentally a state problem, thus absolving from responsibility the forms of private accumulation that historically benefited from the exploitation of enslaved labor and, subsequently, from the precarization of free work. The second approach is constructive: Souza offers an alternative reading of Brazilian social formation that centers on the continuity between colonial slavery and contemporary forms of social contempt for the poor.
+
+One of the book’s most thought-provoking contributions is the notion of “ralé” (\textit{scoundrel} or \textit{rabble}) as a sociological category. Souza argues that there exists a structurally excluded social class—not simply poor in terms of income—whose exclusion is reproduced through mechanisms that are not purely economic but also symbolic and affective. The contempt for this class, naturalized in everyday Brazilian life, constitutes for Souza the most enduring and least acknowledged legacy of slavery.
+
+From a broader Latin American perspective, the book raises questions that extend beyond the Brazilian case. The relationship between economic elites, intellectual production, and the legitimization of the social order is a problem shared by all societies in the region. To what extent have Latin American social sciences inadvertently contributed to naturalizing the inequalities they purport to explain? How much of what is presented as a disinterested analysis of national culture actually serves as a justification for privilege?
+
+The book is not without its weaknesses. The critique of Freyre, Buarque de Holanda, and Faoro, while stimulating, is at times schematic: by subordinating the reading of these authors to the demonstration of his thesis, Souza tends to oversimplify works of considerable complexity. The category of “ralé,” for its part, while possessing descriptive power, raises analytical problems that the book does not entirely resolve: Is it a class in the strict sense or a social condition? What are its empirical boundaries? Finally, the polemical tone that runs throughout the work—and which undoubtedly contributed to its publishing success—may prove excessive for an academic audience accustomed to nuanced argumentation.
+
+\textbf{Conslusion}
+
+These objections, however, do not diminish the book’s value as an intellectual contribution. \textit{A elite do atraso} fulfills the function that every good work of social science should: to force us to rethink categories that were taken for granted. For Spanish-speaking readers, the text also offers an opportunity to reflect on their own national interpretive traditions and on how the elites of each country have constructed narratives that serve to reproduce their privileges. At a time when the radical right is advancing throughout the region, appealing to discourses that combine individual meritocracy with contempt for the popular sectors, reading Souza is not only relevant but urgent.
+
+
+
+\end{document}
