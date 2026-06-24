@@ -1,0 +1,40 @@
+PAQUETE SCIELO — construido con gbpublisher
+============================================================
+Generado: 2026-06-24 19:19:09
+
+DATOS DEL ARTÍCULO
+------------------------------------------------------------
+Título:    Desigualdad digital y rendimiento académico en la educación superior: un estudio comparativo en universidades públicas de Argentina y México
+Autor(es): Freitas, Sol
+Archivo:   02-ARTICULO-V01-N01
+
+DATOS DE LA REVISTA
+------------------------------------------------------------
+Acrónimo SciELO: SOMA
+ISSN:            2718-8426
+URL canónica:    https://www.google.com/
+
+NOMENCLATURA SCIELO
+------------------------------------------------------------
+PID: 2718-8426-SOMA-01-01-00001
+
+CONTENIDO DEL ZIP
+------------------------------------------------------------
+  2718-8426-SOMA-01-01-00001.xml — XML SciELO PS 1.9
+  2718-8426-SOMA-01-01-00001.pdf — PDF final
+  2718-8426-SOMA-01-01-00001-gf01.png — Imagen 1
+
+VALIDACIÓN PACKTOOLS STYLECHECKER
+------------------------------------------------------------
+  Estado:       NO VÁLIDO
+  DTD errors:   presentes
+  Style errors: presentes
+
+OBSERVACIONES
+------------------------------------------------------------
+
+PRÓXIMOS PASOS
+------------------------------------------------------------
+  1. Corregir los errores indicados arriba
+  2. Regenerar el paquete desde gbpublisher
+  3. Enviar el ZIP a scielo@scielo.org
