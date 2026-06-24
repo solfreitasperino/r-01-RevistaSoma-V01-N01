@@ -1,0 +1,41 @@
+{
+  "bibjson": {
+    "title": "La transformación digital postpandemia en América Latina: Brechas estructurales y el desafío de las políticas públicas integrales.",
+    "abstract": "La pandemia aceleró la digitalización en América Latina, pero evidenció las graves desigualdades estructurales de la región. Aunque aumentó el acceso a Internet, persistió la "brecha digital de segundo nivel": las familias vulnerables quedaron limitadas al uso de móviles con datos restringidos, dificultando su educación y trabajo. Según la CEPAL, el costo de la banda ancha representaba el 14% del ingreso del quintil más pobre, haciendo inviable el acceso universal. La tecnología no resuelve por sí sola las deudas históricas; requiere políticas públicas integrales que consideren factores de ingreso, género y territorio para no amplificar las exclusiones existentes.",
+    "year": "2026",
+    "month": "junio",
+    "keywords": [
+      "Pandemia",
+      "transformación digital",
+      "brecha digital de segundo nivel",
+      "América Latina",
+      "desigualdad estructural",
+      "políticas públicas",
+      "CEPAL."
+    ],
+    "author": [
+      {
+        "name": "Freitas, Sol",
+        "orcid_id": "https://orcid.org/0009-0007-4821-6354"
+      }
+    ],
+    "identifier": [
+      {"type": "eissn", "id": "2718-8426"},
+      {"type": "pissn", "id": "2718-8426"},
+      {"type": "doi", "id": "10.5281"}
+    ],
+    "journal": {
+      "title": "Revista Soma",
+      "publisher": "Editorial Sonny",
+      "volume": "01",
+      "number": "01"
+    },
+    "link": [
+      {
+        "type": "fulltext",
+        "url": "https://www.google.com/",
+        "content_type": "text/html"
+      }
+    ]
+  }
+}

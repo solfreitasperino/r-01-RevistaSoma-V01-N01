@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:fr="http://www.crossref.org/fundref.xsd"
+           xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 https://www.crossref.org/schemas/crossref5.3.1.xsd"
+           version="5.3.1">
+   <head>
+      <doi_batch_id>gbpublisher-01-EDITORIAL-V01-N01-20260623223756</doi_batch_id>
+      <timestamp>20260623223756</timestamp>
+      <depositor>
+         <depositor_name>Editorial Sonny</depositor_name>
+         <email_address>universidadvillacrespo@gmail.com</email_address>
+      </depositor>
+      <registrant>Universidad Villa Crespo</registrant>
+   </head>
+   <body>
+      <journal>
+         <journal_metadata language="es" reference_distribution_opts="any">
+            <full_title>Revista Soma</full_title>
+            <issn media_type="electronic">2718-8426</issn>
+            <issn media_type="print">2718-8426</issn>
+         </journal_metadata>
+         <journal_issue>
+            <publication_date media_type="online">
+               <month>06</month>
+               <year>2026</year>
+            </publication_date>
+            <journal_volume>
+               <volume>01</volume>
+            </journal_volume>
+            <issue>01</issue>
+         </journal_issue>
+         <journal_article language="es"
+                          publication_type="full_text"
+                          reference_distribution_opts="any">
+            <titles>
+               <title>La transformación digital postpandemia en América Latina: Brechas estructurales y el desafío de las políticas públicas integrales.</title>
+               <original_language_title language="en">Digital Transformation Post-Pandemic in Latin America: Structural Divides and the Challenge of Comprehensive Public Policies</original_language_title>
+            </titles>
+            <contributors>
+               <person_name sequence="first" contributor_role="author">
+                  <given_name>Sol</given_name>
+                  <surname>Freitas</surname>
+                  <ORCID authenticated="true">https://orcid.org/0009-0007-4821-6354</ORCID>
+               </person_name>
+            </contributors>
+            <jats:abstract>
+               <jats:p xml:lang="es">La pandemia aceleró la digitalización en América Latina, pero evidenció las graves desigualdades estructurales de la región. Aunque aumentó el acceso a Internet, persistió la "brecha digital de segundo nivel": las familias vulnerables quedaron limitadas al uso de móviles con datos restringidos, dificultando su educación y trabajo. Según la CEPAL, el costo de la banda ancha representaba el 14% del ingreso del quintil más pobre, haciendo inviable el acceso universal. La tecnología no resuelve por sí sola las deudas históricas; requiere políticas públicas integrales que consideren factores de ingreso, género y territorio para no amplificar las exclusiones existentes.</jats:p>
+            </jats:abstract>
+            <jats:abstract>
+               <jats:p xml:lang="en">The pandemic accelerated digitalization in Latin America but exposed the region's deep structural inequalities. Although internet access expanded, the "second-level digital divide" persisted: low-income families were restricted to mobile phones with limited data plans, hindering education and remote work. According to ECLAC, broadband costs consumed 14% of the poorest quintil's monthly income, making universal access impossible. Technology alone cannot solve historical deficits; it requires comprehensive public policies addressing income, gender, and territory to avoid worsening existing exclusions.</jats:p>
+            </jats:abstract>
+            <publication_date media_type="online">
+               <month>06</month>
+               <year>2026</year>
+            </publication_date>
+            <doi_data>
+               <doi>10.5281</doi>
+               <resource content_version="vor" mime_type="text/html">https://www.google.com/</resource>
+            </doi_data>
+         </journal_article>
+      </journal>
+   </body>
+</doi_batch>

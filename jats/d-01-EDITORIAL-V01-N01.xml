@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ARCHIVO GENERADO AUTOMÁTICAMENTE POR GBPUBLISHER -->
+<!-- Validar contra: ~/.gbpublisher/schemas/doajArticles.xsd -->
+<records>
+   <record>
+      <language>spa</language>
+      <publisher>Editorial Sonny</publisher>
+      <journalTitle>Revista Soma</journalTitle>
+      <issn>2718-8426</issn>
+      <eissn>2718-8426</eissn>
+      <publicationDate>2026-06</publicationDate>
+      <volume>01</volume>
+      <issue>01</issue>
+      <doi>10.5281</doi>
+      <documentType>editorial</documentType>
+      <title language="spa">La transformación digital postpandemia en América Latina: Brechas estructurales y el desafío de las políticas públicas integrales.</title>
+      <authors>
+         <author>
+            <name>Freitas, Sol</name>
+            <affiliationId>1</affiliationId>
+            <orcid_id>https://orcid.org/0009-0007-4821-6354</orcid_id>
+         </author>
+      </authors>
+      <affiliationsList>
+         <affiliationName affiliationId="1">Departamento de Edición</affiliationName>
+      </affiliationsList>
+      <abstract language="spa">La pandemia aceleró la digitalización en América Latina, pero evidenció las graves desigualdades estructurales de la región. Aunque aumentó el acceso a Internet, persistió la "brecha digital de segundo nivel": las familias vulnerables quedaron limitadas al uso de móviles con datos restringidos, dificultando su educación y trabajo. Según la CEPAL, el costo de la banda ancha representaba el 14% del ingreso del quintil más pobre, haciendo inviable el acceso universal. La tecnología no resuelve por sí sola las deudas históricas; requiere políticas públicas integrales que consideren factores de ingreso, género y territorio para no amplificar las exclusiones existentes.</abstract>
+      <fullTextUrl format="text/html">https://www.google.com/</fullTextUrl>
+      <keywords language="spa">
+         <keyword>Pandemia</keyword>
+         <keyword>transformación digital</keyword>
+         <keyword>brecha digital de segundo nivel</keyword>
+         <keyword>América Latina</keyword>
+         <keyword>desigualdad estructural</keyword>
+         <keyword>políticas públicas</keyword>
+         <keyword>CEPAL.</keyword>
+      </keywords>
+   </record>
+</records>
