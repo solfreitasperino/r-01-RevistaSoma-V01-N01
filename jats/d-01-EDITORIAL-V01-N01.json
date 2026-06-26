@@ -20,15 +20,17 @@
       }
     ],
     "identifier": [
-      {"type": "eissn", "id": "2718-8426"},
-      {"type": "pissn", "id": "2718-8426"},
+      {"type": "eissn", "id": "2177-1634"},
+      {"type": "pissn", "id": "2177-3858"},
       {"type": "doi", "id": "10.5281"}
     ],
     "journal": {
       "title": "Revista Soma",
       "publisher": "Editorial Sonny",
       "volume": "01",
-      "number": "01"
+      "number": "01",
+      "start_page": "1",
+      "end_page": "1"
     },
     "link": [
       {

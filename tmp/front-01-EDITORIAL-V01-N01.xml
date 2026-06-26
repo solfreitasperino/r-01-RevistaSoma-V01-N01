@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <front xmlns:xlink="http://www.w3.org/1999/xlink">
   <journal-meta>
-    <journal-id journal-id-type="publisher-id">2718-8426</journal-id>
+    <journal-id journal-id-type="publisher-id">2177-1634</journal-id>
     <journal-title-group>
       <journal-title>Revista Soma</journal-title>
     </journal-title-group>
-    <issn pub-type="ppub">2718-8426</issn>
-    <issn pub-type="epub">2718-8426</issn>
+    <issn pub-type="ppub">2177-3858</issn>
+    <issn pub-type="epub">2177-1634</issn>
     <publisher>
       <publisher-name>Editorial Sonny</publisher-name>
       <publisher-loc>Buenos Aires, Argentina</publisher-loc>
@@ -34,6 +34,7 @@
         <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0007-4821-6354</contrib-id>
         <aff>
           <institution content-type="dept">Departamento de Edición</institution>,
+          <city>CABA</city>
         </aff>
       </contrib>
     </contrib-group>
@@ -47,6 +48,9 @@
     <lpage>1</lpage>
     <permissions>
       <copyright-year>2026</copyright-year>
+      <license license-type="open-access" xlink:href="https://www.google.com/">
+        <license-p>CC BY 4.0</license-p>
+      </license>
     </permissions>
     <abstract xml:lang="es">
       <p>La pandemia aceleró la digitalización en América Latina, pero evidenció las graves desigualdades estructurales de la región. Aunque aumentó el acceso a Internet, persistió la &quot;brecha digital de segundo nivel&quot;: las familias vulnerables quedaron limitadas al uso de móviles con datos restringidos, dificultando su educación y trabajo. Según la CEPAL, el costo de la banda ancha representaba el 14% del ingreso del quintil más pobre, haciendo inviable el acceso universal. La tecnología no resuelve por sí sola las deudas históricas; requiere políticas públicas integrales que consideren factores de ingreso, género y territorio para no amplificar las exclusiones existentes.</p>

@@ -1,12 +1,12 @@
 PAQUETE SCIELO — construido con gbpublisher
 ============================================================
-Generado: 2026-06-25 23:25:02
+Generado: 2026-06-25 23:28:07
 
 DATOS DEL ARTÍCULO
 ------------------------------------------------------------
-Título:    Desigualdad digital y rendimiento académico en la educación superior: un estudio comparativo en universidades públicas de Argentina y México
+Título:    La transformación digital postpandemia en América Latina: Brechas estructurales y el desafío de las políticas públicas integrales.
 Autor(es): Freitas, Sol
-Archivo:   02-ARTICULO-V01-N01
+Archivo:   01-EDITORIAL-V01-N01
 
 DATOS DE LA REVISTA
 ------------------------------------------------------------
@@ -22,16 +22,16 @@ CONTENIDO DEL ZIP
 ------------------------------------------------------------
   2177-3858-ram-01-01-00001.xml — XML SciELO PS 1.9
   2177-3858-ram-01-01-00001.pdf — PDF final
-  2177-3858-ram-01-01-00001-gf01.png — Imagen 1
 
 VALIDACIÓN PACKTOOLS STYLECHECKER
 ------------------------------------------------------------
   Estado:       NO VÁLIDO
-  DTD errors:   presentes
+  DTD errors:   0
   Style errors: presentes
 
 OBSERVACIONES
 ------------------------------------------------------------
+  ADVERTENCIA: El artículo no tiene imágenes referenciadas.
 
 PRÓXIMOS PASOS
 ------------------------------------------------------------

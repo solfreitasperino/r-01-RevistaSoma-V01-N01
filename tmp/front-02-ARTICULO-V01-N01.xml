@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <front xmlns:xlink="http://www.w3.org/1999/xlink">
   <journal-meta>
-    <journal-id journal-id-type="publisher-id">2718-8426</journal-id>
+    <journal-id journal-id-type="publisher-id">2177-1634</journal-id>
     <journal-title-group>
       <journal-title>Revista Soma</journal-title>
     </journal-title-group>
-    <issn pub-type="ppub">2718-8426</issn>
-    <issn pub-type="epub">2718-8426</issn>
+    <issn pub-type="ppub">2177-3858</issn>
+    <issn pub-type="epub">2177-1634</issn>
     <publisher>
       <publisher-name>Editorial Sonny</publisher-name>
       <publisher-loc>Buenos Aires, Argentina</publisher-loc>
@@ -34,6 +34,7 @@
         <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0007-4821-6354</contrib-id>
         <aff>
           <institution content-type="dept">Departamento de Edición</institution>,
+          <city>CABA</city>
         </aff>
       </contrib>
     </contrib-group>

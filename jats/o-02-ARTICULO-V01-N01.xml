@@ -7,10 +7,10 @@
            xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 https://www.crossref.org/schemas/crossref5.3.1.xsd"
            version="5.3.1">
    <head>
-      <doi_batch_id>gbpublisher-02-ARTICULO-V01-N01-20260620191837</doi_batch_id>
-      <timestamp>20260620191837</timestamp>
+      <doi_batch_id>gbpublisher-02-ARTICULO-V01-N01-20260625230324</doi_batch_id>
+      <timestamp>20260625230324</timestamp>
       <depositor>
-         <depositor_name/>
+         <depositor_name>Editorial Sonny</depositor_name>
          <email_address>universidadvillacrespo@gmail.com</email_address>
       </depositor>
       <registrant>Universidad Villa Crespo</registrant>
@@ -56,6 +56,14 @@
                <month>06</month>
                <year>2026</year>
             </publication_date>
+            <pages>
+               <first_page>1</first_page>
+               <last_page>1</last_page>
+            </pages>
+            <program xmlns="http://www.crossref.org/AccessIndicators.xsd">
+               <free_to_read/>
+               <license_ref applies_to="vor">https://www.google.com/</license_ref>
+            </program>
             <doi_data>
                <doi>10.5281</doi>
                <resource content_version="vor" mime_type="text/html">https://www.google.com/</resource>
