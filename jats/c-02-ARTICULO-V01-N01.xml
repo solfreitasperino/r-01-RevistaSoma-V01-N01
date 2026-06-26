@@ -230,4 +230,85 @@
          <p>Las implicancias para la política universitaria son claras: las estrategias de virtualización o hibridación de la enseñanza deben acompañarse de programas integrales que aborden simultáneamente la provisión de equipamiento, la conectividad, el desarrollo de habilidades digitales y la adaptación de las prácticas pedagógicas a contextos de acceso heterogéneo. De lo contrario, la digitalización de la educación superior corre el riesgo de convertirse en un mecanismo adicional de reproducción de la desigualdad.</p>
       </sec>
    </body>
+ <back>
+ <ref-list>
+         <ref id="bib-2563-WARSCHAUER2004">
+            <element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Warschauer</surname>
+                     <given-names>M.</given-names>
+                  </name>
+               </person-group>
+               <source>Technology and Social Inclusion: Rethinking the Digital Divide</source>
+               <publisher-name>The MIT Press</publisher-name>
+               <year>2004</year>
+            </element-citation>
+         </ref>
+         <ref id="bib-2566-HARGITTAI2002">
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Hargittai</surname>
+                     <given-names>E.</given-names>
+                  </name>
+               </person-group>
+               <article-title>Second-Level Digital Divide: Differences in People's Online Skills</article-title>
+               <source>First Monday</source>
+               <year>2002</year>
+               <volume>7</volume>
+               <issue>4</issue>
+               <issn>1396-0466</issn>
+               <pub-id pub-id-type="doi">10.5210/fm.v7i4.942</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="bib-2564-VANDIJK2020">
+            <element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>van Dijk</surname>
+                     <given-names>J. A. G. M.</given-names>
+                  </name>
+               </person-group>
+               <source>The Digital Divide</source>
+               <publisher-name>Polity Press</publisher-name>
+               <year>2020</year>
+            </element-citation>
+         </ref>
+         <!-- ADVERTENCIA: citekey '0-Warschauer2004' no encontrado en el .bib -->
+         <ref id="bib-2567-CEPAL2021">
+            <element-citation publication-type="report">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>CEPAL</surname>
+                  </name>
+               </person-group>
+               <source>Tecnologías digitales para un nuevo futuro</source>
+               <year>2021</year>
+               <institution>Comisión Económica para América Latina y el Caribe</institution>
+            </element-citation>
+         </ref>
+         <ref id="bib-2565-VANDEURSEN2019">
+            <element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>van Deursen</surname>
+                     <given-names>A. J. A. M.</given-names>
+                  </name>
+                  <name>
+                     <surname>van Dijk</surname>
+                     <given-names>J. A. G. M.</given-names>
+                  </name>
+               </person-group>
+               <article-title>The First-Level Digital Divide Shifts from Inequalities in Physical Access to Inequalities in Material Access</article-title>
+               <source>New Media and Society</source>
+               <year>2019</year>
+               <volume>21</volume>
+               <issue>2</issue>
+               <fpage>354</fpage>
+               <lpage>375</lpage>
+            </element-citation>
+         </ref>
+      </ref-list>
+ </back>
 </article>
