@@ -10,6 +10,7 @@ El presente estudio analiza la relación entre las condiciones de acceso digital
 :::
 
 ::: {.methods}
+
 ## De la brecha de acceso a la desigualdad digital
 
 La noción de "brecha digital" surgió en los años noventa asociada a la preocupación por las disparidades en el acceso a computadoras e Internet entre distintos segmentos de la población. En su formulación más temprana, el problema se concebía en términos binarios: conectados y no conectados. Sin embargo, Hargittai [@2566-HARGITTAI2002] introdujo el concepto de "brecha digital de segundo nivel" para dar cuenta de las diferencias en habilidades y patrones de uso entre quienes ya tenían acceso a la red. Esta distinción abrió un campo de investigación que desplazó el foco desde la infraestructura hacia las prácticas.
@@ -32,6 +33,7 @@ Se aplicó un cuestionario estructurado que relevó cuatro dimensiones del acces
 :::
 
 ::: {.results}
+
 ## Condiciones de acceso material
 
 La Tabla 1 resume las condiciones de acceso material de los estudiantes en ambas universidades. Se observan diferencias significativas tanto entre universidades como entre quintiles de ingreso.
@@ -81,6 +83,7 @@ Otro hallazgo relevante fue la relación entre el tipo de dispositivo y las prá
 :::
 
 ::: {.discussion}
+
 ## Discusión
 
 Los resultados de este estudio confirman la pertinencia del modelo multidimensional de van Dijk [-@2564-VANDIJK2020] para analizar la desigualdad digital en contextos educativos latinoamericanos. La brecha entre los quintiles extremos de ingreso no se limita a la conectividad ---que, aun siendo desigual, ha mejorado significativamente--- sino que se extiende a las condiciones materiales del acceso, las habilidades digitales y, en última instancia, los resultados académicos.

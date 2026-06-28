@@ -13,7 +13,7 @@
     </publisher>
   </journal-meta>
   <article-meta>
-    <article-id pub-id-type="doi">10.5281</article-id>
+    <article-id pub-id-type="doi">10.5334/dsj-2026-012</article-id>
     <article-categories>
       <subj-group subj-group-type="heading">
         <subject>editorial</subject>
@@ -34,21 +34,41 @@
         <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0007-4821-6354</contrib-id>
         <aff>
           <institution content-type="dept">Departamento de Edición</institution>,
-          <city>CABA</city>
+          <institution>Universidad Villa Crespo</institution>,
+          <city>CABA</city>,
+          <country>Argentina</country>
         </aff>
       </contrib>
     </contrib-group>
     <pub-date pub-type="epub-ppub">
-      <month>06</month>
       <year>2026</year>
+      <month>06</month>
+      <day>27</day>
     </pub-date>
     <volume>01</volume>
     <issue>01</issue>
     <fpage>1</fpage>
     <lpage>1</lpage>
+    <history>
+      <date date-type="received">
+        <day>01</day>
+        <month>07</month>
+        <year>2026</year>
+      </date>
+      <date date-type="rev-recd">
+        <day>29</day>
+        <month>06</month>
+        <year>2026</year>
+      </date>
+      <date date-type="pub">
+        <day>01</day>
+        <month>07</month>
+        <year>2026</year>
+      </date>
+    </history>
     <permissions>
       <copyright-year>2026</copyright-year>
-      <license license-type="open-access" xlink:href="https://www.google.com/">
+      <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
         <license-p>CC BY 4.0</license-p>
       </license>
     </permissions>

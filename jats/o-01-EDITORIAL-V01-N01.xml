@@ -7,8 +7,8 @@
            xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 https://www.crossref.org/schemas/crossref5.3.1.xsd"
            version="5.3.1">
    <head>
-      <doi_batch_id>gbpublisher-01-EDITORIAL-V01-N01-20260625232741</doi_batch_id>
-      <timestamp>20260625232741</timestamp>
+      <doi_batch_id>gbpublisher-01-EDITORIAL-V01-N01-20260626212543</doi_batch_id>
+      <timestamp>20260626212543</timestamp>
       <depositor>
          <depositor_name>Editorial Sonny</depositor_name>
          <email_address>universidadvillacrespo@gmail.com</email_address>
@@ -25,6 +25,7 @@
          <journal_issue>
             <publication_date media_type="online">
                <month>06</month>
+               <day>27</day>
                <year>2026</year>
             </publication_date>
             <journal_volume>
@@ -54,6 +55,7 @@
             </jats:abstract>
             <publication_date media_type="online">
                <month>06</month>
+               <day>27</day>
                <year>2026</year>
             </publication_date>
             <pages>
@@ -62,10 +64,10 @@
             </pages>
             <program xmlns="http://www.crossref.org/AccessIndicators.xsd">
                <free_to_read/>
-               <license_ref applies_to="vor">https://www.google.com/</license_ref>
+               <license_ref applies_to="vor">https://creativecommons.org/licenses/by-nc-sa/4.0/</license_ref>
             </program>
             <doi_data>
-               <doi>10.5281</doi>
+               <doi>10.5334/dsj-2026-012</doi>
                <resource content_version="vor" mime_type="text/html">https://www.google.com/</resource>
             </doi_data>
          </journal_article>

@@ -13,7 +13,7 @@
     </publisher>
   </journal-meta>
   <article-meta>
-    <article-id pub-id-type="doi">10.5281</article-id>
+    <article-id pub-id-type="doi">10.5334/dsj-2026-012</article-id>
     <article-categories>
       <subj-group subj-group-type="heading">
         <subject>research-article</subject>
@@ -34,7 +34,9 @@
         <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0007-4821-6354</contrib-id>
         <aff>
           <institution content-type="dept">Departamento de Edición</institution>,
-          <city>CABA</city>
+          <institution>Universidad Villa Crespo</institution>,
+          <city>CABA</city>,
+          <country>Argentina</country>
         </aff>
       </contrib>
     </contrib-group>
@@ -48,7 +50,7 @@
     <lpage>1</lpage>
     <permissions>
       <copyright-year>2026</copyright-year>
-      <license license-type="open-access" xlink:href="https://www.google.com/">
+      <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
         <license-p>CC BY 4.0</license-p>
       </license>
     </permissions>

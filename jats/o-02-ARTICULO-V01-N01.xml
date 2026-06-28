@@ -7,8 +7,8 @@
            xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 https://www.crossref.org/schemas/crossref5.3.1.xsd"
            version="5.3.1">
    <head>
-      <doi_batch_id>gbpublisher-02-ARTICULO-V01-N01-20260625230324</doi_batch_id>
-      <timestamp>20260625230324</timestamp>
+      <doi_batch_id>gbpublisher-02-ARTICULO-V01-N01-20260626212915</doi_batch_id>
+      <timestamp>20260626212915</timestamp>
       <depositor>
          <depositor_name>Editorial Sonny</depositor_name>
          <email_address>universidadvillacrespo@gmail.com</email_address>
@@ -19,8 +19,8 @@
       <journal>
          <journal_metadata language="es" reference_distribution_opts="any">
             <full_title>Revista Soma</full_title>
-            <issn media_type="electronic">2718-8426</issn>
-            <issn media_type="print">2718-8426</issn>
+            <issn media_type="electronic">2177-1634</issn>
+            <issn media_type="print">2177-3858</issn>
          </journal_metadata>
          <journal_issue>
             <publication_date media_type="online">
@@ -62,10 +62,10 @@
             </pages>
             <program xmlns="http://www.crossref.org/AccessIndicators.xsd">
                <free_to_read/>
-               <license_ref applies_to="vor">https://www.google.com/</license_ref>
+               <license_ref applies_to="vor">https://creativecommons.org/licenses/by-nc-sa/4.0/</license_ref>
             </program>
             <doi_data>
-               <doi>10.5281</doi>
+               <doi>10.5334/dsj-2026-012</doi>
                <resource content_version="vor" mime_type="text/html">https://www.google.com/</resource>
             </doi_data>
          </journal_article>

@@ -18,7 +18,7 @@
          </publisher>
       </journal-meta>
       <article-meta>
-         <article-id pub-id-type="doi">10.5281</article-id>
+         <article-id pub-id-type="doi">10.5334/dsj-2026-012</article-id>
          <article-categories>
             <subj-group subj-group-type="heading">
                <subject>research-article</subject>
@@ -39,7 +39,9 @@
                <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0007-4821-6354</contrib-id>
                <aff>
                   <institution content-type="dept">Departamento de Edición</institution>,
-          <city>CABA</city>
+          <institution>Universidad Villa Crespo</institution>,
+          <city>CABA</city>,
+          <country>Argentina</country>
                </aff>
             </contrib>
          </contrib-group>
@@ -53,7 +55,8 @@
          <lpage>1</lpage>
          <permissions>
             <copyright-year>2026</copyright-year>
-            <license license-type="open-access" xlink:href="https://www.google.com/">
+            <license license-type="open-access"
+                     xlink:href="https://creativecommons.org/licenses/by/4.0/">
                <license-p>CC BY 4.0</license-p>
             </license>
          </permissions>
@@ -90,9 +93,9 @@
       <sec id="sec-1">
          <title>Introducción</title>
          <p>La expansión del acceso a Internet en América Latina durante las últimas dos décadas ha sido notable en términos cuantitativos, pero insuficiente en su capacidad de reducir las desigualdades estructurales de la región. Los debates iniciales sobre la brecha digital se centraron en la dimensión del acceso físico —la disponibilidad de dispositivos y conectividad—, pero la investigación posterior demostró que las disparidades más significativas se sitúan en las competencias, los usos y los resultados que las personas obtienen de su interacción con las tecnologías <xref ref-type="bibr" rid="bib-2566-HARGITTAI2002">2566-HARGITTAI2002</xref>, <xref ref-type="bibr" rid="bib-2563-WARSCHAUER2004">2563-WARSCHAUER2004</xref>.</p>
-         <p>Este desplazamiento conceptual, que van Dijk (<xref ref-type="bibr"
+         <p>Este desplazamiento conceptual, que van Dijk <xref ref-type="bibr"
                   rid="bib-2564-VANDIJK2020"
-                  specific-use="suppress||">2564-VANDIJK2020</xref>) sistematizó en un modelo de cuatro niveles (motivacional, material, de habilidades y de resultados), resulta particularmente relevante para analizar la educación superior. Las universidades públicas latinoamericanas, que atienden a una población estudiantil socialmente heterogénea, se vieron obligadas a adoptar modalidades de enseñanza mediadas por tecnología de manera masiva y abrupta a partir de 2020. Sin embargo, la transición no operó en el vacío: los estudiantes llegaron a ese escenario con dotaciones muy disímiles de recursos digitales.</p>
+                  specific-use="suppress||">2564-VANDIJK2020</xref> sistematizó en un modelo de cuatro niveles (motivacional, material, de habilidades y de resultados), resulta particularmente relevante para analizar la educación superior. Las universidades públicas latinoamericanas, que atienden a una población estudiantil socialmente heterogénea, se vieron obligadas a adoptar modalidades de enseñanza mediadas por tecnología de manera masiva y abrupta a partir de 2020. Sin embargo, la transición no operó en el vacío: los estudiantes llegaron a ese escenario con dotaciones muy disímiles de recursos digitales.</p>
          <p>El presente estudio analiza la relación entre las condiciones de acceso digital de los estudiantes —entendidas en sentido amplio, más allá de la mera conectividad— y su rendimiento académico durante el período 2020-2022 en dos universidades públicas: la Universidad de Buenos Aires (UBA) y la Universidad Nacional Autónoma de México (UNAM). La selección de estos casos responde a su carácter de megauniversidades con poblaciones estudiantiles de extracción social diversa, lo que permite observar la variabilidad interna de la brecha digital en contextos institucionales comparables.</p>
       </sec>
       <sec id="sec-2">
@@ -230,7 +233,7 @@
          <p>Las implicancias para la política universitaria son claras: las estrategias de virtualización o hibridación de la enseñanza deben acompañarse de programas integrales que aborden simultáneamente la provisión de equipamiento, la conectividad, el desarrollo de habilidades digitales y la adaptación de las prácticas pedagógicas a contextos de acceso heterogéneo. De lo contrario, la digitalización de la educación superior corre el riesgo de convertirse en un mecanismo adicional de reproducción de la desigualdad.</p>
       </sec>
    </body>
- <back>
+<back>
  <ref-list>
          <ref id="bib-2563-WARSCHAUER2004">
             <element-citation publication-type="book">
